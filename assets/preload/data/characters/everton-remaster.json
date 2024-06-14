@@ -1,0 +1,79 @@
+{
+    "assetPath": "characters/everton_olhos_assets",
+    "name": "everton-remaster.json",
+    "singTime": 6.1,
+    "version": "1.0.0",
+    "scale": 1.4,
+    "flipX": false,
+    "isPixel": false,
+    "offsets": [
+        -160,
+        150
+    ],
+    "cameraOffsets": [
+        100,
+        -100
+    ],
+    "healthIcon": {
+        "id": "everton-olhos",
+        "offsets": [
+            0,
+            0
+        ],
+        "flipX": false,
+        "isPixel": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "idle",
+            "looped": false,
+            "offsets": [
+                -129,
+                5
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "left",
+            "looped": false,
+            "offsets": [
+                -79,
+                -18
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "down",
+            "looped": false,
+            "offsets": [
+                -80,
+                -84
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singUP",
+            "prefix": "up",
+            "looped": false,
+            "offsets": [
+                -166,
+                45
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "right",
+            "looped": false,
+            "offsets": [
+                -149,
+                2
+            ],
+            "frameRate": 24
+        }
+    ]
+}

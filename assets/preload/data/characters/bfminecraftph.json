@@ -1,0 +1,79 @@
+{
+    "assetPath": "characters/bf onward",
+    "name": "bfminecraftph.json",
+    "singTime": 4,
+    "version": "1.0.0",
+    "scale": 4.3,
+    "flipX": true,
+    "isPixel": false,
+    "offsets": [
+        -560,
+        160
+    ],
+    "cameraOffsets": [
+        860,
+        -590
+    ],
+    "healthIcon": {
+        "id": "bf-minecraft",
+        "offsets": [
+            0,
+            0
+        ],
+        "flipX": false,
+        "isPixel": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "bf onward 1 idle",
+            "looped": false,
+            "offsets": [
+                -5,
+                0
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "bf onward left",
+            "looped": false,
+            "offsets": [
+                16,
+                0
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "bf onward right",
+            "looped": false,
+            "offsets": [
+                22,
+                -7
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "bf onward down",
+            "looped": false,
+            "offsets": [
+                -10,
+                -1
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singUP",
+            "prefix": "bf onward up",
+            "looped": false,
+            "offsets": [
+                -5,
+                0
+            ],
+            "frameRate": 24
+        }
+    ]
+}

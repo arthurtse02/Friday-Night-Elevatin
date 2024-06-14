@@ -1,0 +1,79 @@
+{
+    "assetPath": "characters/Clover",
+    "name": "clover.json",
+    "singTime": 4,
+    "version": "1.0.0",
+    "scale": 1,
+    "flipX": false,
+    "isPixel": false,
+    "offsets": [
+        0,
+        0
+    ],
+    "cameraOffsets": [
+        0,
+        490
+    ],
+    "healthIcon": {
+        "id": "clover",
+        "offsets": [
+            0,
+            0
+        ],
+        "flipX": false,
+        "isPixel": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "Idle",
+            "looped": false,
+            "offsets": [
+                83,
+                -451
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "Left",
+            "looped": false,
+            "offsets": [
+                90,
+                -450
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "Down",
+            "looped": false,
+            "offsets": [
+                69,
+                -440
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singUP",
+            "prefix": "Up",
+            "looped": false,
+            "offsets": [
+                60,
+                -320
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "Right",
+            "looped": false,
+            "offsets": [
+                66,
+                -420
+            ],
+            "frameRate": 24
+        }
+    ]
+}

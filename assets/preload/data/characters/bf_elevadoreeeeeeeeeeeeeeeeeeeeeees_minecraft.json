@@ -1,0 +1,105 @@
+{
+    "assetPath": "characters/elevafriend",
+    "name": "bf_elevadoreeeeeeeeeeeeeeeeeeeeeees_minecraft.json",
+    "singTime": 6.1,
+    "version": "1.0.0",
+    "scale": 1.9,
+    "flipX": true,
+    "isPixel": true,
+    "offsets": [
+        460,
+        390
+    ],
+    "cameraOffsets": [
+        880,
+        -480
+    ],
+    "healthIcon": {
+        "id": "icon-automn",
+        "offsets": [
+            0,
+            0
+        ],
+        "flipX": false,
+        "isPixel": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle-loop",
+            "prefix": "idle",
+            "looped": true,
+            "offsets": [
+                408,
+                251
+            ],
+            "frameRate": 24,
+            "frameIndices": [
+                10,
+                11,
+                12,
+                12
+            ]
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "left",
+            "looped": false,
+            "offsets": [
+                408,
+                251
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "down",
+            "looped": false,
+            "offsets": [
+                408,
+                251
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singUP",
+            "prefix": "up",
+            "looped": false,
+            "offsets": [
+                408,
+                251
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "right",
+            "looped": false,
+            "offsets": [
+                408,
+                251
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "hey",
+            "prefix": "hey",
+            "looped": false,
+            "offsets": [
+                408,
+                251
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "idle",
+            "prefix": "idle",
+            "looped": false,
+            "offsets": [
+                408,
+                251
+            ],
+            "frameRate": 24
+        }
+    ]
+}

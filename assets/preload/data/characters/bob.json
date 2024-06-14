@@ -1,0 +1,79 @@
+{
+    "assetPath": "characters/BOB",
+    "name": "bob.json",
+    "singTime": 6.1,
+    "version": "1.0.0",
+    "scale": 1,
+    "flipX": false,
+    "isPixel": false,
+    "offsets": [
+        100,
+        300
+    ],
+    "cameraOffsets": [
+        -60,
+        150
+    ],
+    "healthIcon": {
+        "id": "bob",
+        "offsets": [
+            0,
+            0
+        ],
+        "flipX": false,
+        "isPixel": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "singLEFT",
+            "prefix": "Left",
+            "looped": false,
+            "offsets": [
+                30,
+                12
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singUP",
+            "prefix": "Up",
+            "looped": false,
+            "offsets": [
+                -20,
+                190
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "Down",
+            "looped": false,
+            "offsets": [
+                35,
+                -250
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "Right",
+            "looped": false,
+            "offsets": [
+                0,
+                -8
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "idle",
+            "prefix": "Idle",
+            "looped": true,
+            "offsets": [
+                -2,
+                0
+            ],
+            "frameRate": 24
+        }
+    ]
+}

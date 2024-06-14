@@ -1,0 +1,79 @@
+{
+    "assetPath": "characters/nerln",
+    "name": "nerln.json",
+    "singTime": 4,
+    "version": "1.0.0",
+    "scale": 0.6,
+    "flipX": false,
+    "isPixel": false,
+    "offsets": [
+        -690,
+        -130
+    ],
+    "cameraOffsets": [
+        440,
+        280
+    ],
+    "healthIcon": {
+        "id": "nerln",
+        "offsets": [
+            0,
+            0
+        ],
+        "flipX": false,
+        "isPixel": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "nerln_idle",
+            "looped": false,
+            "offsets": [
+                20,
+                -33
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "nerln_down",
+            "looped": false,
+            "offsets": [
+                21,
+                -32
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "nerln_left",
+            "looped": false,
+            "offsets": [
+                20,
+                -33
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "nerln_right",
+            "looped": false,
+            "offsets": [
+                19,
+                -34
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singUP",
+            "prefix": "nerln_up",
+            "looped": false,
+            "offsets": [
+                24,
+                -29
+            ],
+            "frameRate": 24
+        }
+    ]
+}

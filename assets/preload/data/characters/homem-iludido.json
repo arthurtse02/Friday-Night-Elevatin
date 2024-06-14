@@ -1,0 +1,49 @@
+{
+    "assetPath": "characters/Homem Iludido",
+    "name": "homem-iludido.json",
+    "singTime": 6.1,
+    "version": "1.0.0",
+    "scale": 1,
+    "flipX": false,
+    "isPixel": false,
+    "offsets": [
+        10,
+        290
+    ],
+    "cameraOffsets": [
+        0,
+        0
+    ],
+    "healthIcon": {
+        "id": "joanes",
+        "offsets": [
+            0,
+            0
+        ],
+        "flipX": false,
+        "isPixel": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "Homem Iludido",
+            "looped": false,
+            "offsets": [
+                0,
+                0
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "yipe",
+            "prefix": "Homem Festa",
+            "looped": false,
+            "offsets": [
+                -10,
+                253
+            ],
+            "frameRate": 24
+        }
+    ]
+}

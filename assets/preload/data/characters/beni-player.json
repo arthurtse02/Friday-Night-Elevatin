@@ -1,0 +1,129 @@
+{
+    "assetPath": "characters/BeniPlayer",
+    "name": "beni-player.json",
+    "singTime": 4,
+    "version": "1.0.0",
+    "scale": 1,
+    "flipX": true,
+    "isPixel": false,
+    "offsets": [
+        0,
+        350
+    ],
+    "cameraOffsets": [
+        0,
+        0
+    ],
+    "healthIcon": {
+        "id": "beni",
+        "offsets": [
+            0,
+            0
+        ],
+        "flipX": false,
+        "isPixel": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "BF idle dance",
+            "looped": false,
+            "offsets": [
+                113,
+                50
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "BF NOTE LEFT0",
+            "looped": false,
+            "offsets": [
+                448,
+                302
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "BF NOTE DOWN0",
+            "looped": false,
+            "offsets": [
+                -20,
+                -101
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singUP",
+            "prefix": "BF NOTE UP0",
+            "looped": false,
+            "offsets": [
+                414,
+                267
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "BF NOTE RIGHT0",
+            "looped": false,
+            "offsets": [
+                352,
+                333
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singLEFTmiss",
+            "prefix": "BF NOTE LEFT MISS",
+            "looped": false,
+            "offsets": [
+                427,
+                309
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singDOWNmiss",
+            "prefix": "BF NOTE DOWN MISS",
+            "looped": false,
+            "offsets": [
+                -15,
+                -19
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singUPmiss",
+            "prefix": "BF NOTE UP MISS",
+            "looped": false,
+            "offsets": [
+                415,
+                252
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singRIGHTmiss",
+            "prefix": "BF NOTE RIGHT MISS",
+            "looped": false,
+            "offsets": [
+                326,
+                332
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "hey",
+            "prefix": "BF HEY",
+            "looped": false,
+            "offsets": [
+                105,
+                26
+            ],
+            "frameRate": 24
+        }
+    ]
+}

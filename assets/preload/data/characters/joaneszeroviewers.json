@@ -1,0 +1,79 @@
+{
+    "assetPath": "characters/Joanes Zero Viewers",
+    "name": "joaneszeroviewers.json",
+    "singTime": 4,
+    "version": "1.0.0",
+    "scale": 0.6,
+    "flipX": true,
+    "isPixel": false,
+    "offsets": [
+        350,
+        -400
+    ],
+    "cameraOffsets": [
+        250,
+        450
+    ],
+    "healthIcon": {
+        "id": "zeroviewers",
+        "offsets": [
+            0,
+            0
+        ],
+        "flipX": false,
+        "isPixel": false,
+        "scale": 1
+    },
+    "animations": [
+        {
+            "name": "idle",
+            "prefix": "Idle",
+            "looped": false,
+            "offsets": [
+                -25,
+                0
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singDOWN",
+            "prefix": "Down",
+            "looped": false,
+            "offsets": [
+                -25,
+                0
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singUP",
+            "prefix": "Up",
+            "looped": false,
+            "offsets": [
+                -25,
+                0
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singRIGHT",
+            "prefix": "Right",
+            "looped": false,
+            "offsets": [
+                -25,
+                0
+            ],
+            "frameRate": 24
+        },
+        {
+            "name": "singLEFT",
+            "prefix": "Left",
+            "looped": false,
+            "offsets": [
+                -25,
+                0
+            ],
+            "frameRate": 24
+        }
+    ]
+}
