@@ -1,0 +1,79 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				20,
+				-33
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "nerln_idle"
+		},
+		{
+			"offsets": [
+				21,
+				-32
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "nerln_down"
+		},
+		{
+			"offsets": [
+				20,
+				-33
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "nerln_left"
+		},
+		{
+			"offsets": [
+				19,
+				-34
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "nerln_right"
+		},
+		{
+			"offsets": [
+				24,
+				-29
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "nerln_up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/nerln",
+	"position": [
+		-690,
+		-130
+	],
+	"healthicon": "nerln",
+	"flip_x": false,
+	"healthbar_colors": [
+		118,
+		52,
+		75
+	],
+	"camera_position": [
+		440,
+		280
+	],
+	"sing_duration": 4,
+	"scale": 0.6,
+	"_editor_isPlayer": false
+}

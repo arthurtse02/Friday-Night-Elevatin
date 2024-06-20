@@ -1,0 +1,47 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "Homem Iludido"
+		},
+		{
+			"offsets": [
+				-10,
+				253
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "yipe",
+			"loop": false,
+			"name": "Homem Festa"
+		}
+	],
+	"vocals_file": "",
+	"no_antialiasing": false,
+	"image": "characters/Homem Iludido",
+	"position": [
+		10,
+		290
+	],
+	"healthicon": "joanes",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		255,
+		255
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1,
+	"_editor_isPlayer": false
+}

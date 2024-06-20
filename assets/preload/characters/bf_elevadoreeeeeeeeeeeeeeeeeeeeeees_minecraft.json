@@ -1,0 +1,105 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				408,
+				251
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			],
+			"name": "idle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				408,
+				251
+			],
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				408,
+				251
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				408,
+				251
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				408,
+				251
+			],
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				408,
+				251
+			],
+			"anim": "hey",
+			"fps": 24,
+			"name": "hey",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				408,
+				251
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/elevafriend",
+	"position": [
+		460,
+		390
+	],
+	"healthicon": "icon-automn",
+	"flip_x": true,
+	"healthbar_colors": [
+		149,
+		71,
+		40
+	],
+	"camera_position": [
+		880,
+		-480
+	],
+	"sing_duration": 6.1,
+	"scale": 1.9
+}

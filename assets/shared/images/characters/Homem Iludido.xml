@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="Homem Iludido.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Homem Festa0000" x="0" y="0" width="503" height="572" frameX="-13" frameY="0" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0001" x="503" y="0" width="519" height="512" frameX="-5" frameY="-60" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0002" x="1022" y="0" width="527" height="482" frameX="-1" frameY="-90" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0003" x="0" y="572" width="529" height="470" frameX="0" frameY="-102" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0004" x="529" y="572" width="529" height="469" frameX="0" frameY="-103" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0005" x="529" y="572" width="529" height="469" frameX="0" frameY="-103" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0006" x="529" y="572" width="529" height="469" frameX="0" frameY="-103" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0007" x="529" y="572" width="529" height="469" frameX="0" frameY="-103" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0008" x="529" y="572" width="529" height="469" frameX="0" frameY="-103" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0009" x="529" y="572" width="529" height="469" frameX="0" frameY="-103" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0010" x="529" y="572" width="529" height="469" frameX="0" frameY="-103" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0011" x="529" y="572" width="529" height="469" frameX="0" frameY="-103" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0012" x="529" y="572" width="529" height="469" frameX="0" frameY="-103" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0013" x="529" y="572" width="529" height="469" frameX="0" frameY="-103" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Festa0014" x="529" y="572" width="529" height="469" frameX="0" frameY="-103" frameWidth="529" frameHeight="572"/>
+	<SubTexture name="Homem Iludido0000" x="1058" y="572" width="553" height="308" frameX="0" frameY="-11" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0001" x="0" y="1042" width="547" height="312" frameX="-3" frameY="-7" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0002" x="547" y="1042" width="541" height="314" frameX="-6" frameY="-5" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0003" x="1088" y="1042" width="537" height="316" frameX="-8" frameY="-3" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0004" x="0" y="1358" width="534" height="317" frameX="-9" frameY="-1" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0005" x="534" y="1358" width="532" height="317" frameX="-10" frameY="-1" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0006" x="1066" y="1358" width="531" height="318" frameX="-11" frameY="0" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0007" x="0" y="1676" width="530" height="318" frameX="-11" frameY="0" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0008" x="530" y="1676" width="530" height="318" frameX="-11" frameY="0" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0009" x="530" y="1676" width="530" height="318" frameX="-12" frameY="0" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0010" x="530" y="1676" width="530" height="318" frameX="-12" frameY="0" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0011" x="530" y="1676" width="530" height="318" frameX="-12" frameY="0" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0012" x="530" y="1676" width="530" height="318" frameX="-12" frameY="0" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0013" x="530" y="1676" width="530" height="318" frameX="-12" frameY="0" frameWidth="553" frameHeight="319"/>
+	<SubTexture name="Homem Iludido0014" x="530" y="1676" width="530" height="318" frameX="-12" frameY="0" frameWidth="553" frameHeight="319"/>
+</TextureAtlas>

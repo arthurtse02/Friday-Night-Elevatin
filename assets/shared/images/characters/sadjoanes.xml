@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Created with Free texture packer v0.6.7 http://free-tex-packer.com
+-->
+<TextureAtlas imagePath="sadjoanes.png" width="3000" height="2800">
+  <SubTexture name="sadjoanes_up0001" x="0" y="0"  width="522" height="837" frameX="-691" frameY="-150" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_up0002" x="0" y="837"  width="521" height="834" frameX="-697" frameY="-152" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_idle0005" x="0" y="1671"  width="520" height="832" frameX="-705" frameY="-153" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_idle0004" x="520" y="1671"  width="529" height="831" frameX="-702" frameY="-154" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_left0001" x="521" y="837"  width="524" height="831" frameX="-692" frameY="-154" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_idle0003" x="1045" y="837"  width="534" height="830" frameX="-700" frameY="-155" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_right0002" x="522" y="0"  width="631" height="829" frameX="-711" frameY="-156" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_idle0002" x="1153" y="0"  width="540" height="829" frameX="-698" frameY="-156" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_right0001" x="1049" y="1667"  width="631" height="827" frameX="-718" frameY="-158" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_idle0001" x="1579" y="829"  width="549" height="827" frameX="-696" frameY="-158" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_left0002" x="1693" y="0"  width="524" height="827" frameX="-698" frameY="-157" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_down0001" x="2217" y="0"  width="554" height="800" frameX="-693" frameY="-185" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_down0002" x="2217" y="800"  width="540" height="803" frameX="-698" frameY="-182" frameWidth="1920" frameHeight="1080"/>
+  <SubTexture name="sadjoanes_idle0006" x="0" y="1671"  width="520" height="832" frameX="-705" frameY="-153" frameWidth="1920" frameHeight="1080"/>
+</TextureAtlas>
