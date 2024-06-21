@@ -650,7 +650,7 @@ class TitleState extends MusicBeatState
 					#if PSYCH_WATERMARKS
 					addMoreText('Shadow Mario', 15);
 					addMoreText('RiverOaken', 15);
-					addMoreText('shubs', 15);
+					addMoreText('AND MORE', 15);
 					#else
 					addMoreText('present');
 					#end
@@ -696,7 +696,7 @@ class TitleState extends MusicBeatState
 					addMoreText('Night');
 				// credTextShit.text += '\nNight';
 				case 16:
-					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
+					addMoreText('Elevatin'); // credTextShit.text += '\nFunkin';
 
 				case 17:
 					skipIntro();
