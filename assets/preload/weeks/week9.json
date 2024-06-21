@@ -1,0 +1,59 @@
+{
+	"storyName": "bandu gameplays",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"crowbar",
+			"bandu",
+			[
+				0,
+				255,
+				84
+			]
+		],
+		[
+			"big-eyes",
+			"everton-olhos",
+			[
+				31,
+				143,
+				234
+			]
+		],
+		[
+			"meow",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"inovador",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "gamer",
+	"hiddenUntilUnlocked": false
+}

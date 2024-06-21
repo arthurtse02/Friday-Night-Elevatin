@@ -1,0 +1,68 @@
+{
+	"storyName": "e eu to no elevador a as cinco da manha",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "elly",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"gf",
+		"bf"
+	],
+	"songs": [
+		[
+			"nerln-song-aaa",
+			"nerln",
+			[
+				118,
+				52,
+				75
+			]
+		],
+		[
+			"dickfunkin",
+			"joanes",
+			[
+				235,
+				235,
+				255
+			]
+		],
+		[
+			"bread",
+			"wolfz",
+			[
+				68,
+				197,
+				193
+			]
+		],
+		[
+			"aquatic",
+			"clover",
+			[
+				142,
+				221,
+				255
+			]
+		],
+		[
+			"gogueta",
+			"redzy",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "elevador",
+	"hiddenUntilUnlocked": false
+}

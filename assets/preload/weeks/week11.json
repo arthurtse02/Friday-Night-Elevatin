@@ -1,0 +1,50 @@
+{
+	"storyName": "vai se fuder qsmp",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"mushroom-vibes",
+			"edu",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"red-jacket",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"freaking-out",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "motm",
+	"hiddenUntilUnlocked": false
+}
