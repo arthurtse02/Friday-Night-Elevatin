@@ -2654,6 +2654,17 @@ class PlayState extends MusicBeatState
 				smoke.flipX = true;
 				dadbattleSmokes.add(smoke);
 
+			case 'White Background, Black characters':
+			    dadbattleBlack = new BGSprite(null, -800, -400, 0, 0);
+				dadbattleBlack.makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
+				dadbattleBlack.alpha = 0; //mude para 1
+				dadbattleBlack.visible = false;
+				add(dadbattleBlack);
+
+                var character3232:Character = dad;
+				character3232.alpha = 0;
+				character3232.visible = false;
+                  
 
 			case 'Philly Glow':
 				blammedLightsBlack = new FlxSprite(FlxG.width * -0.5, FlxG.height * -0.5).makeGraphic(Std.int(FlxG.width * 2), Std.int(FlxG.height * 2), FlxColor.BLACK);
@@ -2665,7 +2676,6 @@ class PlayState extends MusicBeatState
 				phillyWindowEvent.updateHitbox();
 				phillyWindowEvent.visible = false;
 				insert(members.indexOf(blammedLightsBlack) + 1, phillyWindowEvent);
-
 
 				phillyGlowGradient = new PhillyGlow.PhillyGlowGradient(-400, 225); //This shit was refusing to properly load FlxGradient so fuck it
 				phillyGlowGradient.visible = false;
@@ -3482,6 +3492,35 @@ class PlayState extends MusicBeatState
 						{
 							dadbattleSmokes.visible = false;
 						}});
+				}
+
+				case 'White Background, Black characters':
+				var val:Null<Int> = Std.parseInt(value1);
+				if(val == null) val = 0;
+
+				switch(Std.parseInt(value1))
+				{
+					case 1, 2, 3: //enable and target dad
+						if(val == 1) //enable
+						{
+							dadbattleBlack.visible = true;
+							//character3232.visible = true;
+							defaultCamZoom += 0.12;
+						}
+
+						//var who:Character = dad;
+						//if(val > 2) who = boyfriend;
+						//2 only targets dad
+						//dadbattleLight.alpha = 0;
+						//new FlxTimer().start(0.12, function(tmr:FlxTimer) {
+						//	dadbattleLight.alpha = 0.375;
+						//});
+						//dadbattleLight.setPosition(who.getGraphicMidpoint().x - dadbattleLight.width / 2, who.y + who.height - dadbattleLight.height + 50);
+
+					default:
+						dadbattleBlack.visible = false;
+                        //character3232.visible = true;
+						defaultCamZoom -= 0.12;
 				}
 
 			case 'Hey!':

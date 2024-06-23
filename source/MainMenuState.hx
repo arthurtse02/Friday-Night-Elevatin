@@ -83,6 +83,15 @@ class MainMenuState extends MusicBeatState
 		bg.screenCenter();
 		add(bg);
 
+		var blackScreen2:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('black_Screen2'), true, 2, 1);
+		//trace('Numero de frames: [${bg.frames.numFrames}]');
+		blackScreen2.antialiasing = ClientPrefs.globalAntialiasing;
+		blackScreen2.scrollFactor.set(0, yScroll);
+		blackScreen2.setGraphicSize(Std.int(bg.width * 1.175));
+		blackScreen2.updateHitbox();
+		blackScreen2.screenCenter();
+		add(blackScreen2);
+
 		camFollow = new FlxObject(0, 0, 1, 1);
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		add(camFollow);
@@ -97,12 +106,40 @@ class MainMenuState extends MusicBeatState
 		magenta.antialiasing = ClientPrefs.globalAntialiasing;
 		magenta.color = 0xFFfd719b;
 		add(magenta);
+
+		var orange:FlxSprite = new FlxSprite(180, 1).loadGraphic(Paths.image('mainmenu/orangecolor2'), true, 1200, 719);
+		//trace('Numero de frames: [${bg.frames.numFrames}]');
+		orange.antialiasing = ClientPrefs.globalAntialiasing;
+		orange.scrollFactor.set(0, yScroll);
+		orange.setGraphicSize(Std.int(orange.width * 1.175));
+		orange.updateHitbox();
+		orange.screenCenter();
+		add(orange);
+
+		var domino:FlxSprite = new FlxSprite(1.15, 161).loadGraphic(Paths.image('mainmenu/domino_pattern'), true, 2290, 2644);
+		//trace('Numero de frames: [${bg.frames.numFrames}]');
+		domino.animation.addByPrefix('domino_patttern', "domino_patttern", 24);
+		domino.antialiasing = ClientPrefs.globalAntialiasing;
+		domino.scrollFactor.set(0, yScroll);
+		domino.setGraphicSize(Std.int(domino.width * 1.175));
+		domino.updateHitbox();
+		domino.screenCenter();
+		add(domino);
+
+		var blackScreen2:FlxSprite = new FlxSprite(2, 1).loadGraphic(Paths.image('mainmenu/black_Screen2'), true, 1300, 720);
+		//trace('Numero de frames: [${bg.frames.numFrames}]');
+		blackScreen2.antialiasing = ClientPrefs.globalAntialiasing;
+		blackScreen2.scrollFactor.set(0, yScroll);
+		blackScreen2.setGraphicSize(Std.int(blackScreen2.width * 1.175));
+		blackScreen2.updateHitbox();
+		blackScreen2.screenCenter();
+		add(blackScreen2);
 		
 		characters = new FlxSprite(520, 30).loadGraphic(Paths.image('mainmenucharacters/mainmenucharacters'), true, 640, 640);
 		characters.antialiasing = ClientPrefs.globalAntialiasing;
 		characters.scrollFactor.set(0, 0);
 		characters.updateHitbox();
-		add(characters);
+		//add(characters);
 
 		
 		// magenta.scrollFactor.set();

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="domino_pattern.png">
+	<!-- Created with Adobe Animate version 21.0.7.42652 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="domino_patttern0000" x="0" y="0" width="2291" height="2645" frameX="0" frameY="0" frameWidth="2291" frameHeight="3885"/>
+	<SubTexture name="domino_patttern0002" x="0" y="2645" width="2291" height="2645" frameX="0" frameY="-13" frameWidth="2291" frameHeight="3885"/>
+	<SubTexture name="domino_patttern0006" x="0" y="5290" width="2291" height="2645" frameX="0" frameY="-39" frameWidth="2291" frameHeight="3885"/>
+	<SubTexture name="domino_patttern0013" x="2291" y="0" width="2291" height="2645" frameX="0" frameY="-85" frameWidth="2291" frameHeight="3885"/>
+	<SubTexture name="domino_patttern0015" x="4582" y="0" width="2291" height="2645" frameX="0" frameY="-98" frameWidth="2291" frameHeight="3885"/>
+	<SubTexture name="domino_patttern0017" x="2291" y="2645" width="2291" height="2645" frameX="0" frameY="-111" frameWidth="2291" frameHeight="3885"/>
+	<SubTexture name="domino_patttern0019" x="2291" y="5290" width="2291" height="2645" frameX="0" frameY="-124" frameWidth="2291" frameHeight="3885"/>
+	<SubTexture name="domino_patttern0021" x="4582" y="2645" width="2291" height="2645" frameX="0" frameY="-137" frameWidth="2291" frameHeight="3885"/>
+	<SubTexture name="domino_patttern0023" x="4582" y="5290" width="2291" height="2645" frameX="0" frameY="-150" frameWidth="2291" frameHeight="3885"/>
+</TextureAtlas>
