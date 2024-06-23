@@ -1,0 +1,140 @@
+{
+	"storyName": "",
+	"difficulties": "hard",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"bedwars-rage",
+			"joanes-puto",
+			[
+				235,
+				235,
+				255
+			]
+		],
+		[
+			"tracing",
+			"nick",
+			[
+				253,
+				145,
+				0
+			]
+		],
+		[
+			"the-fix-song",
+			"fix",
+			[
+				0,
+				161,
+				255
+			]
+		],
+		[
+			"zero-viewers",
+			"sadjoanes",
+			[
+				235,
+				235,
+				255
+			]
+		],
+		[
+			"dark-hour",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"dimensions",
+			"criativo",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"chocolate-n-memes",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"fuckin-guy",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"psyroostin",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"fuck-me",
+			"nick",
+			[
+				253,
+				145,
+				0
+			]
+		],
+		[
+			"minecraft-staying",
+			"dad",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"desgraca",
+			"fix",
+			[
+				0,
+				161,
+				255
+			]
+		],
+		[
+			"xisde",
+			"wolfz",
+			[
+				68,
+				197,
+				193
+			]
+		]
+	],
+	"hideStoryMode": true,
+	"weekName": "freplei",
+	"hiddenUntilUnlocked": false
+}

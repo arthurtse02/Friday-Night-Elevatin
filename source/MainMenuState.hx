@@ -117,8 +117,6 @@ class MainMenuState extends MusicBeatState
 		add(orange);
 
 		var domino:FlxSprite = new FlxSprite(1.15, 161).loadGraphic(Paths.image('mainmenu/domino_pattern'), true, 2290, 2644);
-		//trace('Numero de frames: [${bg.frames.numFrames}]');
-		domino.animation.addByPrefix('domino_patttern', "domino_patttern", 24);
 		domino.antialiasing = ClientPrefs.globalAntialiasing;
 		domino.scrollFactor.set(0, yScroll);
 		domino.setGraphicSize(Std.int(domino.width * 1.175));
@@ -127,7 +125,6 @@ class MainMenuState extends MusicBeatState
 		add(domino);
 
 		var blackScreen2:FlxSprite = new FlxSprite(2, 1).loadGraphic(Paths.image('mainmenu/black_Screen2'), true, 1300, 720);
-		//trace('Numero de frames: [${bg.frames.numFrames}]');
 		blackScreen2.antialiasing = ClientPrefs.globalAntialiasing;
 		blackScreen2.scrollFactor.set(0, yScroll);
 		blackScreen2.setGraphicSize(Std.int(blackScreen2.width * 1.175));

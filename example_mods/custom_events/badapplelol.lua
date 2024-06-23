@@ -1,6 +1,6 @@
 function onEvent(name, value1, value2)
 	if name == 'badapplelol' and value1 == 'a' then
-		makeLuaSprite('whitebg', '', -500, -300)
+		makeLuaSprite('whitebg', 'flash.png', -500, -300)
 		makeGraphic('whitebg',5000,5000,'ffffff')
 		addLuaSprite('whitebg', true)
 		setProperty('boyfriend.color', '000000')
