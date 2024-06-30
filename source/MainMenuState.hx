@@ -20,6 +20,8 @@ import lime.app.Application;
 import Achievements;
 import editors.MasterEditorMenu;
 import flixel.input.keyboard.FlxKey;
+import flixel.addons.display.FlxBackdrop;
+import flixel.addons.display.FlxGridOverlay;
 
 using StringTools;
 
@@ -35,9 +37,7 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
-		#if ACHIEVEMENTS_ALLOWED 'awards', #end
 		'credits',
-		#if !switch 'donate', #end
 		'options'
 	];
 
@@ -77,7 +77,7 @@ class MainMenuState extends MusicBeatState
 		var bg:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('menuBGMod'), true, 1286, 730);
 		//trace('Numero de frames: [${bg.frames.numFrames}]');
 		bg.antialiasing = ClientPrefs.globalAntialiasing;
-		bg.scrollFactor.set(0, yScroll);
+		bg.scrollFactor.set(0);
 		bg.setGraphicSize(Std.int(bg.width * 1.175));
 		bg.updateHitbox();
 		bg.screenCenter();
@@ -86,7 +86,7 @@ class MainMenuState extends MusicBeatState
 		var blackScreen2:FlxSprite = new FlxSprite(-80).loadGraphic(Paths.image('black_Screen2'), true, 2, 1);
 		//trace('Numero de frames: [${bg.frames.numFrames}]');
 		blackScreen2.antialiasing = ClientPrefs.globalAntialiasing;
-		blackScreen2.scrollFactor.set(0, yScroll);
+		blackScreen2.scrollFactor.set(0);
 		blackScreen2.setGraphicSize(Std.int(bg.width * 1.175));
 		blackScreen2.updateHitbox();
 		blackScreen2.screenCenter();
@@ -98,7 +98,7 @@ class MainMenuState extends MusicBeatState
 		add(camFollowPos);
 
 		magenta = new FlxSprite(-80).loadGraphic(Paths.image('menuDesat'));
-		magenta.scrollFactor.set(0, yScroll);
+		magenta.scrollFactor.set(0);
 		magenta.setGraphicSize(Std.int(magenta.width * 1.175));
 		magenta.updateHitbox();
 		magenta.screenCenter();
@@ -110,23 +110,29 @@ class MainMenuState extends MusicBeatState
 		var orange:FlxSprite = new FlxSprite(180, 1).loadGraphic(Paths.image('mainmenu/orangecolor2'), true, 1200, 719);
 		//trace('Numero de frames: [${bg.frames.numFrames}]');
 		orange.antialiasing = ClientPrefs.globalAntialiasing;
-		orange.scrollFactor.set(0, yScroll);
+		orange.scrollFactor.set(0);
 		orange.setGraphicSize(Std.int(orange.width * 1.175));
 		orange.updateHitbox();
 		orange.screenCenter();
 		add(orange);
 
-		var domino:FlxSprite = new FlxSprite(1.15, 161).loadGraphic(Paths.image('mainmenu/domino_pattern'), true, 2290, 2644);
-		domino.antialiasing = ClientPrefs.globalAntialiasing;
-		domino.scrollFactor.set(0, yScroll);
-		domino.setGraphicSize(Std.int(domino.width * 1.175));
-		domino.updateHitbox();
-		domino.screenCenter();
-		add(domino);
+		var grid:FlxBackdrop = new FlxBackdrop(FlxGridOverlay.createGrid(80, 80, 160, 160, true, 0x33000000, 0x0));
+		grid.velocity.set(40, 40);
+		grid.alpha = 0;
+		grid.scrollFactor.set(0);
+		FlxTween.tween(grid, {alpha: 1}, 0.5, {ease: FlxEase.quadOut});
+		add(grid);
+
+		var circles:FlxSprite = new FlxSprite(270, 94).loadGraphic(Paths.image('mainmenu/circles2'), true, 1230, 805);
+		circles.antialiasing = ClientPrefs.globalAntialiasing;
+		circles.scrollFactor.set(0);
+		circles.setGraphicSize(Std.int(circles.width * 1.175));
+		circles.updateHitbox();
+		add(circles);
 
 		var blackScreen2:FlxSprite = new FlxSprite(2, 1).loadGraphic(Paths.image('mainmenu/black_Screen2'), true, 1300, 720);
 		blackScreen2.antialiasing = ClientPrefs.globalAntialiasing;
-		blackScreen2.scrollFactor.set(0, yScroll);
+		blackScreen2.scrollFactor.set(0);
 		blackScreen2.setGraphicSize(Std.int(blackScreen2.width * 1.175));
 		blackScreen2.updateHitbox();
 		blackScreen2.screenCenter();
@@ -163,6 +169,7 @@ class MainMenuState extends MusicBeatState
 			//menuItem.screenCenter(X);
 			menuItems.add(menuItem);
 			menuItem.x = 80;
+			menuItem.y = 80 + offset * i;
 			var scr:Float = (optionShit.length - 4) * 0.135;
 			if(optionShit.length < 6) scr = 0;
 			menuItem.scrollFactor.set(0, scr);
@@ -247,11 +254,11 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				if (optionShit[curSelected] == 'donate')
+				//if (optionShit[curSelected] == 'donate')
 				{
 					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
 				}
-				else
+				//else
 				{
 					selectedSomethin = true;
 					FlxG.sound.play(Paths.sound('confirmMenu'));
@@ -286,7 +293,7 @@ class MainMenuState extends MusicBeatState
 									//case 'mods':
 										//MusicBeatState.switchState(new ModsMenuState());
 									//#end
-									case 'awards':
+									//case 'awards':
 										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());

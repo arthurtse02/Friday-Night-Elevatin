@@ -82,14 +82,13 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 		    ["Elevador Team"],
-			['Joanes',              'joanes',           'Diretor e Charter',                                         'https://twitter.com/Joaneskkj',       'FFFFFF'],
-			['Nerln',               'nerln',            'Coder e Charter',                                           'https://twitter.com/NerlaGamer',      '30B262'],
+			['Nerln',               'nerln',            'Coder, Charter e Diretora',                                           'https://twitter.com/NerlaGamer',      '30B262'],
+			['Redzy1010',           'redzy',            'Co-Diretor',                                                  'https://twitter.com/redzy1010',       'FE0000'],
 			['Wolfz',               'wolfz',            'Composer e Artista/Animador',                               'https://twitter.com/wolfcom_z',       '44c5c1'],
 			['FixBROfc',            'fix',              'Composer, Charter',                                         'https://twitter.com/FixBROfc',        '00A1FF'],
 			['Nickk',               'nick',             'Artista/Animador',                                          'https://twitter.com/Nick_382',        'FD9100'],
 			['Beni Animator br',    'beni',             'Artista',                                    'https://www.youtube.com/@benianimatorbr1310',        '00E44A'],
 			['Oliverzinh',          'oliver',           'Composer, Charter',                                         'https://www.youtube.com/@Oliverzinh', 'FF0004'],
-			['Redzy1010',           'redzy',            'Composer',                                                  'https://twitter.com/redzy1010',       'FE0000'],
 			['Romito',              'romito',           'Visualizer Maker (nada)',                                   'https://twitter.com/PizzaTowerFan10', '3366FF'],
 			['CloverDev',           'clover',           'Artista/Animador',                                          'https://www.youtube.com/@CloverDev',  '8EDDFF'],
 			['Lucas Barbosa',       'lucas',            'Composer\nArrombado nao mandou o icon',            'https://www.youtube.com/@lucasbarbosameneghin','66BBCF'],
