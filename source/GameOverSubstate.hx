@@ -28,17 +28,18 @@ class GameOverSubstate extends MusicBeatSubstate
 	public static var instance:GameOverSubstate;
 
 	public static function resetVariables() {
-		characterName = 'bf-dead';
 		deathSoundName = 'fnf_loss_sfx';
 
-	if (PlayState.SONG.song.toLowerCase() == 'mushroom-vibes') //mude essa merda se quiser mudar o game over de uma música
+	if (PlayState.SONG.song.toLowerCase() == 'mushroom-vibes') //mude essa merda se quiser mudar o game over de uma música, nunca mas mexer nessa merda.
 	  {
 		loopSoundName = 'gameOvermushroom';
+		characterName = 'bf-is-dead';
 		endSoundName = 'gameOverretry';
 	  }
 	else
 	  {
 	    loopSoundName = 'gameOver';
+		characterName = 'bf-dead';
 		endSoundName = 'gameOverEnd';
 	  }
 	}
