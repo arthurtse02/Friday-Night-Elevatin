@@ -30,8 +30,17 @@ class GameOverSubstate extends MusicBeatSubstate
 	public static function resetVariables() {
 		characterName = 'bf-dead';
 		deathSoundName = 'fnf_loss_sfx';
-		loopSoundName = 'gameOver';
+
+	if (PlayState.SONG.song.toLowerCase() == 'mushroom-vibes') //mude essa merda se quiser mudar o game over de uma música
+	  {
+		loopSoundName = 'gameOvermushroom';
+		endSoundName = 'gameOverretry';
+	  }
+	else
+	  {
+	    loopSoundName = 'gameOver';
 		endSoundName = 'gameOverEnd';
+	  }
 	}
 
 	override function create()
@@ -58,7 +67,6 @@ class GameOverSubstate extends MusicBeatSubstate
 		camFollow = new FlxPoint(boyfriend.getGraphicMidpoint().x, boyfriend.getGraphicMidpoint().y);
 
 		FlxG.sound.play(Paths.sound(deathSoundName));
-		Conductor.changeBPM(100);
 		// FlxG.camera.followLerp = 1;
 		// FlxG.camera.focusOn(FlxPoint.get(FlxG.width / 2, FlxG.height / 2));
 		FlxG.camera.scroll.set();
@@ -69,6 +77,14 @@ class GameOverSubstate extends MusicBeatSubstate
 		camFollowPos = new FlxObject(0, 0, 1, 1);
 		camFollowPos.setPosition(FlxG.camera.scroll.x + (FlxG.camera.width / 2), FlxG.camera.scroll.y + (FlxG.camera.height / 2));
 		add(camFollowPos);
+		if (PlayState.SONG.song.toLowerCase() == 'zero-viewers') //mudar essa merda para mushroom-vibes
+		{
+		Conductor.changeBPM(98);
+		}
+	else
+	{
+	     Conductor.changeBPM(100);
+	  }
 	}
 
 	var isFollowingAlready:Bool = false;

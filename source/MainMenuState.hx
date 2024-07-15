@@ -254,11 +254,11 @@ class MainMenuState extends MusicBeatState
 
 			if (controls.ACCEPT)
 			{
-				//if (optionShit[curSelected] == 'donate')
+				if (optionShit[curSelected] == 'donate')
 				{
 					CoolUtil.browserLoad('https://ninja-muffin24.itch.io/funkin');
 				}
-				//else
+				else
 				{
 					selectedSomethin = true;
 					FlxG.sound.play(Paths.sound('confirmMenu'));
@@ -293,8 +293,6 @@ class MainMenuState extends MusicBeatState
 									//case 'mods':
 										//MusicBeatState.switchState(new ModsMenuState());
 									//#end
-									//case 'awards':
-										MusicBeatState.switchState(new AchievementsMenuState());
 									case 'credits':
 										MusicBeatState.switchState(new CreditsState());
 									case 'options':
