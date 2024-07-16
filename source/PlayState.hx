@@ -1033,7 +1033,14 @@ class PlayState extends MusicBeatState
 
 		var showTime:Bool = (ClientPrefs.timeBarType != 'Disabled');
 		timeTxt = new FlxText(STRUM_X + (FlxG.width / 2) - 248, 19, 400, "", 32);
-		timeTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		if (SONG.song == 'mushroom-vibes')
+		{
+			timeTxt.setFormat(Paths.font("Minecraft.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		}
+		else
+		{
+			timeTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		}
 		timeTxt.scrollFactor.set();
 		timeTxt.alpha = 0;
 		timeTxt.borderSize = 2;
@@ -1060,7 +1067,39 @@ class PlayState extends MusicBeatState
 		timeBar = new FlxBar(timeBarBG.x + 4, timeBarBG.y + 4, LEFT_TO_RIGHT, Std.int(timeBarBG.width - 8), Std.int(timeBarBG.height - 8), this,
 			'songPercent', 0, 1);
 		timeBar.scrollFactor.set();
+	if (SONG.song == 'mushroom-vibes')
+	{
+		timeBar.createFilledBar(0xFF000000, 0xFFFF6633);
+	}
+	else
+	if (SONG.song == 'Nerln Song AAA')
+	{
+		timeBar.createFilledBar(0xFF000000, 0xFF76344B);
+	}
+	else
+	if (SONG.song == 'CrowBar')
+	{
+		timeBar.createFilledBar(0xFF000000, 0xFF00FF54);
+	}
+	else
+	if (SONG.song == 'zero-viewers' || SONG.song == 'Dickfunkin' || SONG.song == 'Bedwars-rage' )
+	{
+		timeBar.createFilledBar(0xFFFFFFFF, 0xFF000000);
+	}
+	else
+	if (SONG.song == 'aquatic')
+	{
+		timeBar.createFilledBar(0xFF000000, 0xFF8EDDFF);
+	}
+	else
+	if (SONG.song == 'big-eyes')
+	{
+		timeBar.createFilledBar(0xFF000000, 0xFF1F8FEA);
+	}
+	else
+	{
 		timeBar.createFilledBar(0xFF000000, 0xFF93FFE4);
+	}
 		timeBar.numDivisions = 800; //How much lag this causes?? Should i tone it down to idk, 400 or 200?
 		timeBar.alpha = 0;
 		timeBar.visible = showTime;
@@ -1151,7 +1190,14 @@ class PlayState extends MusicBeatState
 		reloadHealthBarColors();
 
 		scoreTxt = new FlxText(healthBarBG.x - healthBarBG.width / 2, healthBarBG.y + 26, 0, "", 20);
-		scoreTxt.setFormat(Paths.font("fullphanmuff.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		if (SONG.song == 'mushroom-vibes')
+		{
+			scoreTxt.setFormat(Paths.font("Minecraft.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		}
+		else
+		{
+			scoreTxt.setFormat(Paths.font("fullphanmuff.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		}
 		scoreTxt.scrollFactor.set();
 		scoreTxt.y = healthBarBG.y - 18;
 		scoreTxt.borderSize = 1.25;
@@ -1159,7 +1205,14 @@ class PlayState extends MusicBeatState
 		add(scoreTxt);
 
         missTxt = new FlxText(scoreTxt.x, scoreTxt.y - 26, 0, "", 20);
-        missTxt.setFormat(Paths.font('fullphanmuff.ttf'), 20, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+        if (SONG.song == 'mushroom-vibes')
+		{
+			missTxt.setFormat(Paths.font("Minecraft.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		}
+		else
+		{
+			missTxt.setFormat(Paths.font("fullphanmuff.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		}
         missTxt.y = scoreTxt.y + 26;
         missTxt.scrollFactor.set();
         missTxt.borderSize = 1.25;
@@ -1167,7 +1220,14 @@ class PlayState extends MusicBeatState
         add(missTxt);
 
 		ratingTxt = new FlxText(missTxt.x, missTxt.y - 26, 0, "", 20);
-        ratingTxt.setFormat(Paths.font('fullphanmuff.ttf'), 20, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		if (SONG.song == 'mushroom-vibes')
+			{
+				ratingTxt.setFormat(Paths.font("Minecraft.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			}
+			else
+			{
+				ratingTxt.setFormat(Paths.font("fullphanmuff.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			}
         ratingTxt.y = missTxt.y + 26;
         ratingTxt.scrollFactor.set();
         ratingTxt.borderSize = 1.25;
